@@ -1,7 +1,10 @@
 Batalha-Naval
 =============
 
-Projeto de Introdução a Programação - Turma SI 2 - Lucas Filipe e Eridson Igor
+Projeto de Introdução a Programação - Turma SI 2 - Lucas Filipe e Eridson Igor.md
+
+
+
 from random import *
 secura = 'S'
 while secura == 'S':
