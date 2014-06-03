@@ -14,7 +14,6 @@ while secura == 'S':
             print 'O numero mínimo de linhas é 3'
         else:
             break
-
     while True:
         colunas = input('Digite o numero de colunas: ')
         if colunas < 3:
