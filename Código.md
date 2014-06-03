@@ -11,34 +11,34 @@ Lucas Filipe e Eridson Igor.md
 	
 	secura = 'S'
 	
-	while secura == 'S'
+	while secura == 'S':
 	
-	while True:
-	    linhas = input('Digite o numero de linhas: ')
-	    if linhas < 3:
-	        print 'O numero mínimo de linhas é 3'
-	    else:
-	        break
-	
-	while True:
-	    colunas = input('Digite o numero de colunas: ')
-	    if colunas < 3:
-	        print 'O numero minimo de colunas é 3'
-	    else:
-	        break
-	
-	while True: 
-	    navios = input('Digite o numero de navios: ')
-	    if navios > (linhas*colunas):
-	        print 'O numero de navios deve ser menor que a quantidade de posições no grid'
-	    else:
-	        break
-	while True:
-	    erros = input('Digite a quantidade de erros permitidos: ')
-	    if erros < navios and erros > (linhas*colunas):
-	        print " O numero de erros deve ser maior que o numero de navios e menor que o tamanho do grid"
-	    else:
-	        break
+		while True:
+		    linhas = input('Digite o numero de linhas: ')
+		    if linhas < 3:
+		        print 'O numero mínimo de linhas é 3'
+		    else:
+		        break
+		
+		while True:
+		    colunas = input('Digite o numero de colunas: ')
+		    if colunas < 3:
+		        print 'O numero minimo de colunas é 3'
+		    else:
+		        break
+		
+		while True: 
+		    navios = input('Digite o numero de navios: ')
+		    if navios > (linhas*colunas):
+		        print 'O numero de navios deve ser menor que a quantidade de posições no grid'
+		    else:
+		        break
+		while True:
+		    erros = input('Digite a quantidade de erros permitidos: ')
+		    if erros < navios and erros > (linhas*colunas):
+		        print " O numero de erros deve ser maior que o numero de navios e menor que o tamanho do grid"
+		    else:
+		        break
 	
 	mat1 = ['.']*linhas
 	for i in range(linhas):
