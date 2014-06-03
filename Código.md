@@ -107,3 +107,5 @@ Lucas Filipe e Eridson Igor.md
 		        coordenadas = False
 		secura = raw_input ("Deseja jogar novamente? (S/N): ")
 		secura.upper()
+		if secura != 'S':
+			print 'Game Over, Thank you for playing!!'
