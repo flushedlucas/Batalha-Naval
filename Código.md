@@ -11,7 +11,7 @@ Lucas Filipe e Eridson Igor.md
 	
 	secura = 'S'
 	
-	while secura == 'S':
+	while secura == 'S'
 	
 	while True:
 	    linhas = input('Digite o numero de linhas: ')
